@@ -13,7 +13,10 @@ const routes: Routes = [
   },{
     path: 'chat',
     loadChildren: './chat/chat.module#ChatPageModule'
-  }
+  },{
+    path: 'contacts',
+    loadChildren: './chat/chat.module#ChatPageModule'
+  },
 ];
 
 @NgModule({
